@@ -702,7 +702,7 @@
 - id: '1543894510668'
   alias: Announce Garage Intruder Alert on Garage Motion Detection
   trigger:
-  - entity_id: sensor.vision_security_zp3102_pir_motion_sensor_burglar_5
+  - entity_id: sensor.vision_security_zp3102_pir_motion_sensor_burglar
     platform: state
     to: '8'
   condition:
@@ -1319,22 +1319,6 @@
   - data:
       entity_id: switch.speakcasitatemp_status
     service: switch.turn_off
-# - id: '1578115101763'
-#   alias: Entry Sensor ON when Email counter bumps
-#   description: ''
-#   trigger:
-#   - entity_id: sensor.raspberrypi275
-#     platform: state
-#   condition:
-#   - above: '0'
-#     condition: numeric_state
-#     entity_id: sensor.raspberrypi275
-#   action:
-#   - entity_id: switch.insteon_motion
-#     service: switch.turn_on
-#   - delay: 00:00:25
-#   - entity_id: switch.insteon_motion
-#     service: switch.turn_off
 - id: '1578555547862'
   alias: Arm Heat Lamp Sensor when heat lamps turn on
   description: ''

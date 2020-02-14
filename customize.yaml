@@ -189,9 +189,9 @@ sensor.vision_security_zp3102_pir_motion_sensor_sourcenodeid:
 sensor.vision_security_zp3102_pir_motion_sensor_system:
   hidden: true
 sensor.vision_security_zp3102_pir_motion_sensor_temperature:
-  friendly_name: East Front Porch Temp.
+  friendly_name: Garage Temp60
 sensor.vision_security_zp3102_pir_motion_sensor_burglar:
-  friendly_name: East Front Porch Motion
+  friendly_name: Garage Motion
 sensor.vision_security_zp3102_pir_motion_sensor_alarm_level:
   hidden: true
 script.1560207244704:
@@ -519,4 +519,6 @@ light.hearth_light: {}
 switch.06007468ecfabc220062:
   hidden: true
 switch.06007468ecfabc220097:
+  hidden: true
+sensor.many_date:
   hidden: true
